@@ -1,0 +1,279 @@
+body{
+    color : #142c5c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width : 90%;
+    margin: auto;
+}
+
+/* Navbar style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid #d0cccc;
+}
+
+.iconNav{
+    font-size: 50px;
+    display: flex;
+    font-weight: bold;
+    flex: 1;
+}
+
+.link{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.link a{
+    transform: translateY(25%);
+}
+
+.link a:hover{
+    cursor: pointer;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.styleWarna{
+    color: #4c58ec;
+}
+
+a {
+    all: unset;
+}
+
+
+.active{
+    color: #4c58ec;
+}
+
+main{
+    margin: 30px;
+}
+
+/* iklan */
+
+.iklanSection{
+    text-align: center;
+    position: relative;
+}
+
+.iklan{
+    width: 90%;
+}
+
+.info{
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+
+
+.button{
+    width: 20%;
+    background-color: #f7f7f7;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button p{
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:nth-child(1){
+    border-right: 1px solid #d0cccc ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.button:nth-child(2){
+    border-left: 1px solid #d0cccc ;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.buton:hover{
+    cursor: pointer;
+}
+
+.button img{
+    width: 30px;
+}
+
+/* Destinasi */
+
+.judul{
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-bottom: 30px; 
+}
+.widthD{
+    width: 240px;
+}
+
+.cardD{
+    display: inline-block;
+    position: relative;
+    background-color: #0066FE;
+    color: white !important;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+
+.judulCard{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detailCardD {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detailCardD p{
+    font-size: 14px;
+}
+
+.cardD .utama{
+    display: block;
+    border-radius: 25px;
+    height: 250px;
+    width: 100%;
+}
+
+.cardD .bintang{
+    width: 34px;
+}
+
+.btnD{
+    margin: 10px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.btnD button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btnD button:hover{
+    cursor: pointer;
+}
+
+.rekomendasi{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.cardPos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardR img{
+    display: block;
+    margin: auto;
+}
+
+.cardR .infoR{
+    transform: translateY(-100%);
+    color: #f7f7f7;
+    padding: 20px;
+    background: linear-gradient(268.58deg, rgba(0, 0, 0, 0) 34.26%, #0066FE 91.4%);
+}
+
+.cardD .utamaR{
+    border-radius: 25px;
+    width: 100%;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+
+.i{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+.i .icon{
+    margin-top: 30px;
+}
+
+.i .detail{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.informasi{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.informasi .active{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.informasi .judulInfo{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.informasi .linkInfo a{
+    display: block;
+    margin: 20px;
+}
+
+footer{
+    border-top: 1px solid #d0cccc;
+}
+
+
+.icon{
+    font-size: 30px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 30px;
+}
